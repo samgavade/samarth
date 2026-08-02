@@ -7,7 +7,7 @@ function checkPassword() {
     if (!input) return;
     
     const val = input.value.trim().toLowerCase();
-    if (val === 'shembdi') {
+    if (val === 'you will never crack this password if you want to try you can') {
         window.location.href = 'page2.html';
     } else {
         if (errorMsg) errorMsg.style.display = 'block';
